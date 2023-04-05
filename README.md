@@ -35,4 +35,8 @@ https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-differ
 
 There are 90 classes where i have only used 56 classes 
 
+From that link all the classes that i have choosen are these
+
+class_names = ['antelope', 'badger', 'bat', 'bear', 'bison', 'boar', 'cat', 'chimpanzee', 'cow', 'coyote', 'deer', 'dog', 'donkey', 'duck', 'elephant', 'flamingo', 'fox', 'goat', 'goose', 'gorilla', 'hamster', 'hare', 'hedgehog', 'hippopotamus', 'hornbill', 'horse', 'hummingbird', 'hyena', 'kangaroo', 'koala', 'leopard', 'lion', 'okapi', 'orangutan', 'owl', 'ox', 'panda', 'parrot', 'pelecaniformes', 'pig', 'pigeon', 'porcupine', 'possum', 'raccoon', 'reindeer', 'rhinoceros', 'sandpiper', 'sheep', 'snake', 'squirrel', 'tiger', 'turkey', 'wolf', 'wombat', 'woodpecker', 'zebra']
+
 
