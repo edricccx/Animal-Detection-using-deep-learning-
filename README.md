@@ -5,7 +5,28 @@ animaldetection1.pynb is a jyputer notebook file where i have given the code for
 
 This model has not been loaded(I can not load a file larger than 25mb in github)
 
-But in the animaldetection1.pynb in last four blocks i have written the code so that u can load the model and use it for other purposes.
+To test your image u will have to add to image in jpg format in this folder and change it in this part of the code
+
+
+# Load and preprocess the image
+
+
+img_path = '1.jpg'
+
+
+img = image.load_img(img_path, target_size=(224, 224))  # resizing to 224x224
+
+
+x = image.img_to_array(img)
+
+
+x = np.expand_dims(x, axis=0)
+
+
+x = x / 255.0  # scaling pixel values to [0,1]
+
+
+In the animaldetection1.pynb in last four blocks i have written the code so that u can load the model and use it for other purposes.
 
 
 
