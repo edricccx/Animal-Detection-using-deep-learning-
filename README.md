@@ -25,8 +25,8 @@ x = np.expand_dims(x, axis=0)
 
 
 x = x / 255.0  # scaling pixel values to [0,1]
-
-#To save the model
+ 
+# To save the model
 In the animaldetection1.pynb in last four blocks i have written the code so that u can load the model and use it for other purposes.
 
 
